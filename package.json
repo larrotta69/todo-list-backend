@@ -1,0 +1,14 @@
+{
+    "name": "todo-list",
+    "version": "1.0.0",
+    "description": "back end for todo list",
+    "main": "index.js",
+    "author": "Daniel Larrotta",
+    "license": "MIT",
+    "scripts": {
+        "start": "json-server -p 8080 -w index.json"
+    },
+    "dependencies": {
+        "json-server": "^0.12.0"
+    }
+}
